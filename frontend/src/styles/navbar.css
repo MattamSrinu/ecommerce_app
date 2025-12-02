@@ -1,0 +1,36 @@
+body {
+  padding-top: 70px;
+}
+
+.custom-navbar {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  height: 80px;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.custom-navbar .nav-link {
+  font-size: 16px;
+  color: #e5e7eb !important;
+  padding: 8px 15px;
+  transition: 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #38bdf8 !important;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 26px;
+  font-weight: 700;
+  color: #f1f5f9 !important;
+  letter-spacing: 1px;
+}
+
+.custom-navbar .btn-danger {
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}

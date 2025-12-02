@@ -1,0 +1,12 @@
+.product-card-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-card-title {
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.footer-section {
+  background: #111;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 6px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #0d0d0d;
+  font-size: 0.9rem;
+  color: #ccc;
+  border-top: 1px solid #222;
+}

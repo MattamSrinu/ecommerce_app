@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding-top: 70px;
+}
+
+.carousel img {
+  height: 420px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.deal-banner {
+  background: linear-gradient(135deg, #ff5722, #ff784e);
+  box-shadow: 0 8px 20px rgba(255, 87, 34, 0.3);
+  border-radius: 14px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.deal-banner:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 28px rgba(255, 87, 34, 0.38);
+}
+
+.category-card {
+  background: #ffffff;
+  border-radius: 14px;
+  transition: 0.35s ease;
+  padding: 18px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.category-img {
+  width: 100%;
+  height: 160px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.best-seller-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+}
+
+.best-seller-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.best-seller-wrapper::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  border-radius: 10px;
+}
+
+.best-seller-wrapper::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+  border-radius: 10px;
+}
+
+.best-seller-scroll {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.best-seller-scroll img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.best-seller-scroll img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.cta-section {
+  padding: 70px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #283048, #4ca1af);
+  margin-top: 60px;
+}
+
+.cta-section button {
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-weight: 600;
+  transition: 0.1s ease;
+}
+
+.cta-section button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25);
+}
