@@ -25,7 +25,7 @@ export default function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100 rounded"
-              src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+              src="https://i.pinimg.com/564x/d8/87/50/d88750111f09ee043aed3e968f924174.jpg"
               alt="Product 2"
             />
             <Carousel.Caption>
@@ -45,9 +45,6 @@ export default function Home() {
               <p>Fresh styles that match your vibe.</p>
             </Carousel.Caption>
           </Carousel.Item>
-
-
-
 
           <Carousel.Item>
             <img
